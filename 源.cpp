@@ -14,6 +14,7 @@ int main()
 	void cpp_ref2();
 	void cpp_copy(Person per);
 	Person cpp_copy2();
+	void cpp_pointer();
 
 	//escape_character();
 	//cpp_string();
@@ -45,6 +46,8 @@ int main()
 	cpp_copy(per1);
 
 	Person per = cpp_copy2();*/
+
+	cpp_pointer();
 
 	return 0;
 }
@@ -126,4 +129,21 @@ Person cpp_copy2()
 	Person per;
 
 	return per;
+}
+
+void cpp_pointer()
+{
+	int* p1 = new int(10);
+
+	int* p2 = p1;
+
+	cout << (int)p1 << endl;
+
+	cout << (int)p2 << endl;
+
+	delete p1;
+
+	p1 = nullptr;
+
+	p2 = nullptr;
 }
