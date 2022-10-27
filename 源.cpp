@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Person.h"
 #include "OtherFunc.h"
+#include "Test01.h"
+#include "Test02.h"
 
 using namespace std;
 
@@ -37,7 +39,11 @@ int main()
 
 	Person per = cpp_copy2();*/
 
-	cpp_pointer();
+	//cpp_pointer();
+
+	/*Test01 t01;
+
+	Test02 t02(t01);*/
 
 	return 0;
 }
