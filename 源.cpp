@@ -3,8 +3,11 @@
 #include "OtherFunc.h"
 #include "Test01.h"
 #include "Test02.h"
+#include "Test03.h"
 
 using namespace std;
+
+//int Test03::t_a = 100;
 
 int main()
 {
@@ -44,6 +47,10 @@ int main()
 	/*Test01 t01;
 
 	Test02 t02(t01);*/
+
+	Test03 t03;
+
+	cout << t03.t_a << endl;
 
 	return 0;
 }
