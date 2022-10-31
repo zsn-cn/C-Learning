@@ -1,13 +1,19 @@
+#ifndef DEBUG
 #include <iostream>
 #include "Person.h"
 #include "OtherFunc.h"
 #include "Test01.h"
 #include "Test02.h"
 #include "Test03.h"
+#include "Building.h"
+#include "Operator.h"
+#endif // DEBUG
 
 using namespace std;
 
 //int Test03::t_a = 100;
+
+void cpp_friend(Building& building);
 
 int main()
 {
@@ -48,9 +54,31 @@ int main()
 
 	Test02 t02(t01);*/
 
-	Test03 t03;
+	/*Test03 t03;
 
-	cout << t03.t_a << endl;
+	cout << t03.t_a << endl;*/
+
+	/*Building building;
+
+	cpp_friend(building);*/
+
+	Operator op1;
+	Operator op2;
+
+	//Operator op3 = op1.operator+(op2);
+	/*Operator op3 = op1 + op2;*/
+
+	Operator op3 = op1 + 5;
+
+
+	cout << "op3µÄnum1 = " << op3.num1 << " num2 = " << op3.num2 << endl;
 
 	return 0;
+}
+
+void cpp_friend(Building& building)
+{
+	cout << "·ÃÎÊ" << building.sitting_room << endl;
+
+	cout << "·ÃÎÊ" << building._bed_room << endl;
 }
