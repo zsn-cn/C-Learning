@@ -36,7 +36,10 @@
     <ClCompile Include="Building.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Operator.cpp">
+    <ClCompile Include="Operator+.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Operator左移.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,7 +62,10 @@
     <ClInclude Include="Building.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Operator.h">
+    <ClInclude Include="Operator+.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Operator左移.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

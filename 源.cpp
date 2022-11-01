@@ -6,7 +6,8 @@
 #include "Test02.h"
 #include "Test03.h"
 #include "Building.h"
-#include "Operator.h"
+#include "Operator+.h"
+#include "Operator×óÒÆ.h"
 #endif // DEBUG
 
 using namespace std;
@@ -62,16 +63,19 @@ int main()
 
 	cpp_friend(building);*/
 
-	Operator op1;
+	/*Operator op1;
 	Operator op2;
 
-	//Operator op3 = op1.operator+(op2);
-	/*Operator op3 = op1 + op2;*/
+	Operator op3 = op1.operator+(op2);
+	Operator op3 = op1 + op2;
 
 	Operator op3 = op1 + 5;
 
+	cout << "op3µÄnum1 = " << op3.num1 << " num2 = " << op3.num2 << endl;*/
 
-	cout << "op3µÄnum1 = " << op3.num1 << " num2 = " << op3.num2 << endl;
+	Person person("ÕÅÚ¡Äþ", 23, "ÄÐ");
+
+	cout << person << endl;
 
 	return 0;
 }

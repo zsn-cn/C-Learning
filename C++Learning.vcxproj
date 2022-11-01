@@ -128,7 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Building.cpp" />
-    <ClCompile Include="Operator.cpp" />
+    <ClCompile Include="Operator+.cpp" />
+    <ClCompile Include="Operator左移.cpp" />
     <ClCompile Include="OtherFunc.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Test01.cpp" />
@@ -138,7 +139,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Building.h" />
-    <ClInclude Include="Operator.h" />
+    <ClInclude Include="Operator+.h" />
+    <ClInclude Include="Operator左移.h" />
     <ClInclude Include="OtherFunc.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Test01.h" />
