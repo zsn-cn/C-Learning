@@ -8,6 +8,7 @@
 #include "Building.h"
 #include "Operator+.h"
 #include "Operator×óÒÆ.h"
+#include "Computer.h"
 #endif // DEBUG
 
 using namespace std;
@@ -76,6 +77,14 @@ int main()
 	/*Person person("ÕÅÚ¡Äş", 23, "ÄĞ");
 
 	cout << person << endl;*/
+
+	CPU* cpu = new IntelCPU;
+	GPU* gpu = new AMDGPU;
+	RAM* ram = new IntelRAM;
+
+	Computer computer(cpu, gpu, ram);
+
+	computer.run_computer();
 
 	return 0;
 }

@@ -51,6 +51,9 @@
     <ClCompile Include="Dog.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Computer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
@@ -84,6 +87,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Dog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Computer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
