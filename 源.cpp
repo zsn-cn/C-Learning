@@ -73,9 +73,9 @@ int main()
 
 	cout << "op3µÄnum1 = " << op3.num1 << " num2 = " << op3.num2 << endl;*/
 
-	Person person("ÕÅÚ¡Äş", 23, "ÄĞ");
+	/*Person person("ÕÅÚ¡Äş", 23, "ÄĞ");
 
-	cout << person << endl;
+	cout << person << endl;*/
 
 	return 0;
 }

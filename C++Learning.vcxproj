@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Building.cpp" />
+    <ClCompile Include="Cat.cpp" />
+    <ClCompile Include="Dog.cpp" />
     <ClCompile Include="Operator+.cpp" />
     <ClCompile Include="Operator左移.cpp" />
     <ClCompile Include="OtherFunc.cpp" />
@@ -138,7 +141,10 @@
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
     <ClInclude Include="Building.h" />
+    <ClInclude Include="Cat.h" />
+    <ClInclude Include="Dog.h" />
     <ClInclude Include="Operator+.h" />
     <ClInclude Include="Operator左移.h" />
     <ClInclude Include="OtherFunc.h" />

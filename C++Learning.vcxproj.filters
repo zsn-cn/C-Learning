@@ -42,6 +42,15 @@
     <ClCompile Include="Operator左移.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
@@ -66,6 +75,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Operator左移.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
