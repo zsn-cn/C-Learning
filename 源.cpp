@@ -9,7 +9,11 @@
 #include "Operator+.h"
 #include "Operator×óÒÆ.h"
 #include "Computer.h"
+#include "Operator++.h"
+#include "Operator=.h"
+#include "Operator==.h"
 #endif // DEBUG
+#include <typeinfo>
 
 using namespace std;
 
@@ -64,13 +68,13 @@ int main()
 
 	cpp_friend(building);*/
 
-	/*Operator op1;
-	Operator op2;
+	/*OperatorPlus op1;
+	OperatorPlus op2;
 
-	Operator op3 = op1.operator+(op2);
-	Operator op3 = op1 + op2;
+	OperatorPlus op3 = op1.operator+(op2);
+	OperatorPlus op3 = op1 + op2;
 
-	Operator op3 = op1 + 5;
+	OperatorPlus op3 = op1 + 5;
 
 	cout << "op3µÄnum1 = " << op3.num1 << " num2 = " << op3.num2 << endl;*/
 
@@ -78,13 +82,50 @@ int main()
 
 	cout << person << endl;*/
 
-	CPU* cpu = new IntelCPU;
+	/*CPU* cpu = new IntelCPU;
 	GPU* gpu = new AMDGPU;
 	RAM* ram = new IntelRAM;
 
 	Computer computer(cpu, gpu, ram);
 
-	computer.run_computer();
+	computer.run_computer();*/
+
+	/*OperatorPlusPlus op1;
+	op1.m_a = 10;*/
+
+	//op1.operator++();
+	//cout << ++(++op1) << endl;
+	//cout << op1.m_a << endl;
+
+	/*cout << op1++ << endl;
+	cout << op1.m_a << endl;*/
+
+	/*OperatorPlusPlus op2;
+	op2.m_a = 10;*/
+
+	/*cout << --(--op2) << endl;
+	cout << op2 << endl;*/
+
+	/*cout << op2-- << endl;
+	cout << op2 << endl;*/
+
+	/*OperatorEqual op1;
+	OperatorEqual op2;
+	OperatorEqual op3;
+
+	op1.m_a = 500;
+	op3 = op2 = op1;
+
+	cout << op2.m_a << endl;
+	cout << op3.m_a << endl;*/
+
+	/*OperatorIsEqual op1;
+	OperatorIsEqual op2;
+	op1.m_a = 10000;
+
+	cout << (op1 == op2) << endl;*/
+
+	
 
 	return 0;
 }

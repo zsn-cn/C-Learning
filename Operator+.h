@@ -3,17 +3,17 @@
 
 using namespace std;
 
-class Operator
+class OperatorPlus
 {
 public:
 
-	Operator();
+	OperatorPlus();
 
-	~Operator();
+	~OperatorPlus();
 
-	Operator operator+(Operator& op);
+	OperatorPlus operator+(OperatorPlus& op);
 	
-	Operator operator+(int num);
+	OperatorPlus operator+(int num);
 
 public:
 
