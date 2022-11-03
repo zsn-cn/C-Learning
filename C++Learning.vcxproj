@@ -132,6 +132,7 @@
     <ClCompile Include="Cat.cpp" />
     <ClCompile Include="Computer.cpp" />
     <ClCompile Include="Dog.cpp" />
+    <ClCompile Include="Operator().cpp" />
     <ClCompile Include="Operator++.cpp" />
     <ClCompile Include="Operator+.cpp" />
     <ClCompile Include="Operator=.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="Cat.h" />
     <ClInclude Include="Computer.h" />
     <ClInclude Include="Dog.h" />
+    <ClInclude Include="Operator().h" />
     <ClInclude Include="Operator++.h" />
     <ClInclude Include="Operator+.h" />
     <ClInclude Include="Operator=.h" />

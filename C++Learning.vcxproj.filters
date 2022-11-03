@@ -63,6 +63,9 @@
     <ClCompile Include="Operator==.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Operator().cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
@@ -108,6 +111,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Operator==.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Operator().h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

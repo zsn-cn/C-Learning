@@ -12,6 +12,7 @@
 #include "Operator++.h"
 #include "Operator=.h"
 #include "Operator==.h"
+#include "Operator().h"
 #endif // DEBUG
 #include <typeinfo>
 
@@ -125,7 +126,11 @@ int main()
 
 	cout << (op1 == op2) << endl;*/
 
-	
+	/*OperatorFunc op1(10, 20);
+
+	cout << op1.operator()() << endl;*/
+
+	//cout << OperatorFunc(20, 30)() << endl;
 
 	return 0;
 }
