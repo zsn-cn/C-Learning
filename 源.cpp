@@ -15,6 +15,7 @@
 #include "Operator().h"
 #endif // DEBUG
 #include <typeinfo>
+#include "MyArray.hpp"
 
 using namespace std;
 
@@ -131,6 +132,58 @@ int main()
 	cout << op1.operator()() << endl;*/
 
 	//cout << OperatorFunc(20, 30)() << endl;
+
+	MyArray<int> arr1(5);
+
+	cout << "arr1.capacity = " << arr1.get_capacity() << endl;
+	cout << "arr1.size = " << arr1.get_size() << endl;
+
+	for (int i = 0; i < arr1.get_capacity(); i++)
+	{
+		arr1.push_element(i);
+	}
+
+	for (int i = 0; i < arr1.get_size(); i++)
+	{
+		cout << arr1[i] << endl;
+	}
+
+	cout << "arr1.capacity = " << arr1.get_capacity() << endl;
+	cout << "arr1.size = " << arr1.get_size() << endl;
+
+	arr1.pop_element();
+
+	cout << "arr1.capacity = " << arr1.get_capacity() << endl;
+	cout << "arr1.size = " << arr1.get_size() << endl;
+
+	MyArray<int> arr2(arr1);
+
+	for (int i = 0; i < arr2.get_size(); i++)
+	{
+		cout << arr2[i] << endl;
+	}
+
+	cout << "arr2.capacity = " << arr2.get_capacity() << endl;
+	cout << "arr2.size = " << arr2.get_size() << endl;
+
+	MyArray<int> arr3(10);
+
+	for (int i = 0; i < arr3.get_capacity(); i++)
+	{
+		arr3.push_element(i);
+	}
+
+	arr1 = arr2 = arr3;
+
+	for (int i = 0; i < arr1.get_size(); i++)
+	{
+		cout << arr1[i] << endl;
+	}
+
+	for (int i = 0; i < arr2.get_size(); i++)
+	{
+		cout << arr2[i] << endl;
+	}
 
 	return 0;
 }

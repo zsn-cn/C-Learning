@@ -151,6 +151,7 @@
     <ClInclude Include="Cat.h" />
     <ClInclude Include="Computer.h" />
     <ClInclude Include="Dog.h" />
+    <ClInclude Include="MyArray.hpp" />
     <ClInclude Include="Operator().h" />
     <ClInclude Include="Operator++.h" />
     <ClInclude Include="Operator+.h" />
