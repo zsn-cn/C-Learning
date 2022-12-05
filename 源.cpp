@@ -133,7 +133,7 @@ int main()
 
 	//cout << OperatorFunc(20, 30)() << endl;
 
-	MyArray<int> arr1(5);
+	/*MyArray<int> arr1(5);
 
 	cout << "arr1.capacity = " << arr1.get_capacity() << endl;
 	cout << "arr1.size = " << arr1.get_size() << endl;
@@ -183,7 +183,63 @@ int main()
 	for (int i = 0; i < arr2.get_size(); i++)
 	{
 		cout << arr2[i] << endl;
-	}
+	}*/
+
+
+	//1 string();
+	//2 string(const char* s);
+	//3 string(const string& str);
+	//4 string(int n, char c);
+	/*const char* str1 = "hello world";
+
+	string str2(str1);
+
+	string str3("hello world");
+
+	string str4(str3);
+
+	string str5(5, 'a');
+
+	cout << str1 << endl;
+	cout << str2 << endl;
+	cout << str3 << endl;
+	cout << str4 << endl;
+	cout << str5 << endl;*/
+
+	/*string str1 = "123456789";
+
+	char c = str1.at(0);
+
+	c = 'a';
+
+	cout << str1 << endl;*/
+
+	/*char c = 'a';
+
+	char& c1 = c;
+
+	c1 = 'b';
+
+	cout << c << endl;*/
+
+	/*string str1 = "123456789";
+	
+	string str2 = str1.substr(0, 3);
+
+	str2[0] = 'a';
+
+	cout << str2 << endl;*/
+
+	/*const string get_substring(string& str, int pos = 0, int n = 1);
+
+	string str1 = "123456789";
+
+	string str2 = get_substring(str1, 0, 3);
+
+	str2[0] = 'a';
+
+	cout << str2 << endl;*/
+	
 
 	return 0;
 }
@@ -193,4 +249,16 @@ void cpp_friend(Building& building)
 	cout << "ทรฮส" << building.sitting_room << endl;
 
 	cout << "ทรฮส" << building._bed_room << endl;
+}
+
+const string get_substring(string& str, int pos = 0, int n = 1)
+{
+	string str1;
+
+	for (int i = pos; i < n; i++)
+	{
+		str1 += str[i];
+	}
+
+	return str1;
 }
