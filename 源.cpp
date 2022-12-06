@@ -13,9 +13,11 @@
 #include "Operator=.h"
 #include "Operator==.h"
 #include "Operator().h"
-#endif // DEBUG
 #include <typeinfo>
 #include "MyArray.hpp"
+#include <vector>
+#endif // DEBUG
+
 
 using namespace std;
 
@@ -239,7 +241,47 @@ int main()
 	str2[0] = 'a';
 
 	cout << str2 << endl;*/
+
+	/*vector<int> v1;
+
+	for (int i = 0; i < 10; i++)
+	{
+		v1.push_back(i);
+	}
 	
+	cout << v1.capacity() << endl;
+
+	cout << v1.size() << endl;
+
+	for (vector<int>::iterator it = v1.begin(); it != v1.end(); it++)
+	{
+		cout << *it;
+	}
+	cout << endl;
+
+	v1.resize(15);
+
+	cout << v1.capacity() << endl;
+
+	cout << v1.size() << endl;
+
+	for (vector<int>::iterator it = v1.begin(); it != v1.end(); it++)
+	{
+		cout << *it;
+	}
+	cout << endl;
+
+	v1.resize(9);
+
+	cout << v1.capacity() << endl;
+
+	cout << v1.size() << endl;
+
+	for (vector<int>::iterator it = v1.begin(); it != v1.end(); it++)
+	{
+		cout << *it;
+	}
+	cout << endl;*/
 
 	return 0;
 }
