@@ -140,6 +140,7 @@
     <ClCompile Include="Operator左移.cpp" />
     <ClCompile Include="OtherFunc.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Test01.cpp" />
     <ClCompile Include="Test02.cpp" />
     <ClCompile Include="Test03.cpp" />
@@ -160,6 +161,7 @@
     <ClInclude Include="Operator左移.h" />
     <ClInclude Include="OtherFunc.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Test01.h" />
     <ClInclude Include="Test02.h" />
     <ClInclude Include="Test03.h" />

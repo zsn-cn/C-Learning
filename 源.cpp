@@ -16,6 +16,8 @@
 #include <typeinfo>
 #include "MyArray.hpp"
 #include <vector>
+#include "Player.h"
+#include <ctime>
 #endif // DEBUG
 
 
@@ -282,6 +284,31 @@ int main()
 		cout << *it;
 	}
 	cout << endl;*/
+
+	/*Player p1("张三", 18);
+	Player p2("李四", 19);
+	Player p3("王五", 20);
+
+	vector<Player> vec;
+
+	vec.push_back(p1);
+	vec.push_back(p2);
+	vec.push_back(p3);
+
+	srand((unsigned int)time(0));
+
+	for (int i = 0; i < vec.size(); i++)
+	{
+		for (int j = 0; j < 10; j++)
+		{
+			vec[i]._deq[j] = (rand() / double(RAND_MAX)) * 40.0 + 60.0;
+		}
+	}
+
+	for (int i = 0; i < vec.size(); i++)
+	{
+		cout << vec[i].get_player_name() << "最后得分为：" << vec[i].get_avg_score() << endl;
+	}*/
 
 	return 0;
 }
